@@ -14,13 +14,16 @@
         font-size: 14px;
         color: #4B4B4B;
         &:-moz-placeholder {
-            color: green;
+            color: red;
         }
         &:-ms-input-placeholder {
-            color: blue;
+            color: red;
         }
         &:nth-child(3){
             margin-bottom: 20px;
         }
+    }
+    &_mt25 {
+        margin-top: 25px;
     }
 }
